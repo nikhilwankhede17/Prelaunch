@@ -59,7 +59,7 @@ function App() {
 
         <p className="text-lg md:text-xl mb-12 max-w-2xl text-gray-700 leading-relaxed">
           We're building a marketplace where you can book professional photographers across various categories.
-          Our platform is coming soon, but you can already book photographers via WhatsApp!
+          Our platform is launching soon, but you can already book photographers via WhatsApp!
         </p>
 
         {/* Countdown */}

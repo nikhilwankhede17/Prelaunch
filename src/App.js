@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Camera, Instagram, Facebook, Linkedin, Mail, Phone } from 'lucide-react';
+
 
 function App() {
   const [days, setDays] = useState(0);
@@ -123,10 +123,7 @@ function App() {
           </div>
 
           <div className="flex gap-5 justify-center">
-            <a href="#" className="hover:text-gray-200 transition"><Facebook size={20} /></a>
-            <a href="#" className="hover:text-gray-200 transition"><Instagram size={20} /></a>
-            <a href="#" className="hover:text-gray-200 transition"><Linkedin size={20} /></a>
-            <a href="#" className="hover:text-gray-200 transition"><Mail size={20} /></a>
+           
           </div>
         </div>
 

@@ -88,7 +88,7 @@ function App() {
         <div className="flex flex-wrap justify-center gap-6 mb-20 px-4">
           {['Event Photography', 'Personal Photoshoot', 'Wedding Photography', 'Food Photography', 'Product Photography'].map((text, index) => (
             <div key={index} className="bg-white p-5 rounded-lg shadow-md flex flex-col items-center justify-center w-40 hover:shadow-lg transition">
-              <Camera size={32} className="text-red-500 mb-2" />
+              
               <span className="font-medium text-sm text-gray-800 text-center">{text}</span>
             </div>
           ))}
@@ -106,7 +106,7 @@ function App() {
             rel="noopener noreferrer"
             className="bg-green-500 text-white px-6 py-3 rounded-md flex items-center justify-center gap-2 hover:bg-green-600 transition duration-300"
           >
-            <Phone size={16} />
+            
             Book via WhatsApp
           </a>
         </div>

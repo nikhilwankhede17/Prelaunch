@@ -7,7 +7,7 @@ function App() {
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
 
-  const launchDate = new Date('June 15, 2025').getTime();
+  const launchDate = new Date('May 30, 2025').getTime();
 
   useEffect(() => {
     const interval = setInterval(() => {

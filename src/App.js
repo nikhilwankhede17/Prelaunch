@@ -40,7 +40,7 @@ function App() {
     <img src="/logo.jpeg" alt="LitStudio Logo" className="h-16 w-auto object-contain" />
   </div>
   <a
-    href="https://wa.me/+1234567890"
+    href="https://wa.me/+917208353481"
     target="_blank"
     rel="noopener noreferrer"
     className="bg-red-500 text-white px-5 py-2 rounded-lg hover:bg-red-600 transition duration-300"
